@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/font/Inter.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/font/Satoshi.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/font/Nunito.woff2') format('woff2');
+  font-display: swap;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 dark:bg-zinc-950 dark:text-zinc-100 accent-slate-950 dark:accent-zinc-50;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  font-family: system-ui, sans-serif;
+}
+
+.wait * {
+  cursor: wait !important;
+}
+
+#nprogress {
+  z-index: 999 !important;
+  position: fixed !important;
+}
+
+#nprogress .bar {
+  @apply bg-primary-900 dark:bg-primary-100 !important;
+  z-index: 999 !important;
+  height: 1px !important;
+}
+
+#nprogress .peg {
+  display: none !important;
+  z-index: 999 !important;
+}
+
+pre:not(.code-baseline) {
+  @apply bg-slate-100 p-2 rounded-xl my-2 max-w-full whitespace-pre-wrap
+  border-slate-200 border dark:bg-zinc-950 dark:border-zinc-900 text-xs;
+}
+
+:not(pre) > code:not(.code-baseline) {
+  @apply bg-slate-100 dark:bg-zinc-950;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  padding: 1px;
+}
+
+::-webkit-scrollbar-track {
+  width: 2px;
+  margin: 1px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  @apply bg-slate-200;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-zinc-800;
+}
+
+select:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  outline: none;
+  @apply ring-2 ring-offset-1 ring-primary-900 dark:ring-primary-100;
+}
