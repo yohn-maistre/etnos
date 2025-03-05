@@ -24,7 +24,7 @@ export const LINKED_INSTANCE_URL =
     : undefined;
 
 const getDefaultInstance = (): string => {
-  return 'https://meepago.etnos.groups.id'; 
+  return 'etnos.groups.id'; 
 };
 
 export const DEFAULT_INSTANCE_URL = getDefaultInstance();
