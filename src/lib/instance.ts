@@ -24,7 +24,7 @@ export const LINKED_INSTANCE_URL =
     : undefined;
 
 const getDefaultInstance = (): string => {
-  return ''; 
+  return 'mamta.etnos.hitam.id'; 
 };
 
 export const DEFAULT_INSTANCE_URL = getDefaultInstance();
