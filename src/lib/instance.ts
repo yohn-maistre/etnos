@@ -24,7 +24,7 @@ export const LINKED_INSTANCE_URL =
     : undefined;
 
 const getDefaultInstance = (): string => {
-  return 'https://13.215.91.173';  //
+  return ''; 
 };
 
 export const DEFAULT_INSTANCE_URL = getDefaultInstance();
