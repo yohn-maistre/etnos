@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ETNOS">
-  <rect width="512" height="512" rx="112" fill="#12141a"/>
-  <rect x="44" y="44" width="424" height="424" rx="84" fill="none" stroke="#c86b3c" stroke-width="18"/>
-  <path d="M156 156h200v44H208v58h128v44H208v58h148v44H156V156z" fill="#f6f3ee"/>
-  <circle cx="356" cy="280" r="24" fill="#c86b3c"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ETNOS"><rect width="512" height="512" rx="112" fill="#0a0a0a"/><g transform="translate(94.000 355.273) scale(0.36364 -0.36364)"><path fill="#f5f5f5" d="M318 -12Q231 -12 167.0 26.5Q103 65 68.0 130.0Q33 195 33 274Q33 356 69.5 420.0Q106 484 168.0 521.0Q230 558 308 558Q373 558 423.0 537.5Q473 517 507.5 480.0Q542 443 560.0 394.5Q578 346 578 289Q578 273 576.5 257.5Q575 242 571 231H162V341H486L415 289Q425 332 414.0 365.5Q403 399 375.5 418.5Q348 438 308 438Q269 438 241.0 419.0Q213 400 199.0 363.0Q185 326 188 273Q184 227 199.0 192.0Q214 157 245.0 137.5Q276 118 320 118Q360 118 388.5 134.0Q417 150 433 178L553 121Q537 81 502.5 51.0Q468 21 421.0 4.5Q374 -12 318 -12Z"/><rect fill="#7b97bb" x="668" y="0" width="190" height="190"/></g></svg>
